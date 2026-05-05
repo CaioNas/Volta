@@ -1,90 +1,109 @@
 # Volta
 
-Volta é um app pessoal de constância para registrar hábitos diários, lidar melhor com dias difíceis e acompanhar a semana sem culpa.
+> Constância não é sequência perfeita. É a capacidade de recomeçar.
 
-A ideia central não é criar uma sequência perfeita. É ajudar a pessoa a voltar quando o dia não saiu como planejado.
+Volta é um app pessoal de constância para registrar hábitos diários, lidar melhor com dias difíceis e acompanhar a semana — sem culpa.
 
-## Problema Que Resolve
+---
 
-Apps de hábitos costumam reforçar sequências rígidas. Quando a pessoa perde um dia, a sensação de progresso pode desaparecer junto com a motivação.
+## O problema
 
-O Volta parte de outra lógica: constância também é recomeço. O app valoriza o mínimo possível em dias difíceis e mostra quando a pessoa conseguiu aparecer por si de novo.
+Apps de hábitos costumam reforçar sequências. Quando você perde um dia, a sensação de progresso desaparece junto com a motivação.
 
-## Funcionalidades Do MVP
+O Volta parte de outra lógica: **constância também é recomeço**. O app valoriza o mínimo possível em dias difíceis e registra quando você conseguiu aparecer por si de novo.
 
-- Cadastro local de hábitos.
-- Categorias de hábitos.
-- Meta mínima normal.
-- Meta reduzida para dia difícil.
-- Marcar e desmarcar hábitos concluídos no dia atual.
-- Ativar e desativar o modo dia difícil.
-- Cálculo de vitória do dia:
-  - modo normal: pelo menos 2 hábitos concluídos;
-  - modo dia difícil: pelo menos 1 hábito concluído.
-- Placar semanal de segunda a domingo.
-- Status por dia:
-  - Vitória mínima;
-  - Parcial;
-  - Sem registro.
-- Estatísticas rápidas:
-  - hábitos feitos hoje;
-  - vitórias mínimas na semana;
-  - dias com registro;
-  - retornos na semana.
-- Revisão diária com nota, vitórias, bloqueios e mínimo de amanhã.
-- Gerenciamento de hábitos:
-  - criar;
-  - pausar;
-  - reativar;
-  - remover.
-- Persistência inicial com `localStorage`.
-- Interface responsiva para mobile e desktop.
+---
 
-## Stack Usada
+## Funcionalidades do MVP
 
-- Next.js com App Router
-- TypeScript
-- Tailwind CSS
-- React
-- `localStorage` para persistência local
+**Registro diário**
+- Cadastro local de hábitos com categorias
+- Meta normal e meta reduzida para dia difícil
+- Marcar e desmarcar hábitos concluídos no dia atual
+- Ativar e desativar o modo dia difícil
 
-Não há backend, banco de dados ou bibliotecas de componentes no MVP.
+**Cálculo de vitória**
+- Modo normal: pelo menos 2 hábitos concluídos
+- Modo dia difícil: pelo menos 1 hábito concluído
 
-## Como Rodar Localmente
+**Placar semanal (segunda a domingo)**
+- Vitória mínima
+- Parcial
+- Sem registro
 
-Instale as dependências:
+**Estatísticas rápidas**
+- Hábitos concluídos hoje
+- Vitórias mínimas na semana
+- Dias com registro
+- Retornos na semana
 
-```bash
-npm install
+**Revisão diária**
+- Nota, vitórias, bloqueios e mínimo de amanhã
+
+**Gerenciamento de hábitos**
+- Criar, pausar, reativar e remover
+
+**Interface**
+- Responsiva para mobile e desktop
+- Persistência com `localStorage`
+
+---
+
+## O diferencial: streak de retorno
+
+Em vez de punir a interrupção, o Volta valoriza a capacidade de recomeçar.
+
+Um **retorno** acontece quando um dia sem vitória é seguido por um dia com vitória.
+
+```
+Segunda: vitória mínima
+Terça:   sem vitória
+Quarta:  vitória mínima  →  1 retorno
 ```
 
-Rode o servidor de desenvolvimento:
+Isso muda o foco: a sequência que importa não é a de dias perfeitos, mas a de vezes que você voltou.
+
+---
+
+## Pilha
+
+| Tecnologia | Uso |
+|---|---|
+| Next.js (App Router) | Framework principal |
+| TypeScript | Tipagem |
+| Tailwind CSS | Estilização |
+| React | Interface |
+| `localStorage` | Persistência local |
+
+Sem backend, banco de dados ou bibliotecas de componentes no MVP.
+
+---
+
+## Como rodar localmente
 
 ```bash
+# Instalar dependências
+npm install
+
+# Iniciar servidor de desenvolvimento
 npm run dev
 ```
 
-Abra no navegador:
-
-```text
-http://localhost:3000
-```
-
-Para validar os tipos:
+Abra [http://localhost:3000](http://localhost:3000) no navegador.
 
 ```bash
+# Validar tipos
 npx tsc --noEmit
-```
 
-Para gerar build de produção:
-
-```bash
+# Build de produção
 npm run build
 ```
 
-## Estrutura De Pastas
+---
 
-```text
+## Estrutura de pastas
+
+```
 app/
   globals.css
   layout.tsx
@@ -114,30 +133,21 @@ src/
     habit.ts
 ```
 
-## Diferencial: Streak De Retorno
+---
 
-O diferencial do Volta é trocar a obsessão por streak perfeito por um streak de retorno.
+## Próximos passos
 
-Um retorno acontece quando existe um dia sem vitória seguido por um dia com vitória. Isso muda o foco: em vez de punir a interrupção, o app valoriza a capacidade de recomeçar.
+- [ ] Migração e validação dos dados do `localStorage`
+- [ ] Edição de hábitos existentes
+- [ ] Histórico mensal
+- [ ] Visualização de retornos ao longo do tempo
+- [ ] Exportar e importar dados
+- [ ] Tema claro/escuro
+- [ ] PWA para uso offline
+- [ ] Testes para regras de vitória, semana e retornos
 
-Exemplo:
+---
 
-```text
-Segunda: vitória mínima
-Terça: sem vitória
-Quarta: vitória mínima
-```
+## Licença
 
-Resultado: 1 retorno.
-
-## Próximos Passos Planejados
-
-- Migrar dados antigos do storage inicial, se necessário.
-- Melhorar validação dos dados carregados do `localStorage`.
-- Permitir edição de hábitos existentes.
-- Criar histórico mensal.
-- Adicionar visualização de retornos ao longo do tempo.
-- Permitir exportar e importar dados.
-- Criar tema claro/escuro.
-- Transformar em PWA para uso offline mais confortável.
-- Adicionar testes para regras de vitória, semana e retornos.
+Projeto pessoal. Uso livre para aprendizado e inspiração.
