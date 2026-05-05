@@ -2,6 +2,8 @@
 
 > Constância não é sequência perfeita. É a capacidade de recomeçar.
 
+![Preview do app Volta](public/preview.svg)
+
 Volta é um app pessoal de constância para registrar hábitos diários, lidar melhor com dias difíceis e acompanhar a semana — sem culpa.
 
 ---

@@ -1,0 +1,69 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="900" fill="#F7F4EE"/>
+  <rect x="48" y="40" width="1344" height="820" rx="18" fill="#FFFFFF" fill-opacity="0.62"/>
+  <rect x="80" y="72" width="1280" height="150" rx="10" fill="#FFFFFF"/>
+  <rect x="80.5" y="72.5" width="1279" height="149" rx="9.5" stroke="#202124" stroke-opacity="0.08"/>
+  <text x="116" y="126" fill="#4D6F5D" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3">VOLTA</text>
+  <text x="116" y="178" fill="#202124" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="700">Volta</text>
+  <text x="116" y="207" fill="#202124" fill-opacity="0.68" font-family="Inter, Arial, sans-serif" font-size="20">Não é sobre perfeição. É sobre voltar com calma.</text>
+  <rect x="1160" y="104" width="150" height="86" rx="10" fill="#EEF2F1"/>
+  <rect x="1160.5" y="104.5" width="149" height="85" rx="9.5" stroke="#202124" stroke-opacity="0.08"/>
+  <text x="1184" y="136" fill="#202124" fill-opacity="0.6" font-family="Inter, Arial, sans-serif" font-size="15">Progresso</text>
+  <text x="1184" y="176" fill="#202124" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">50%</text>
+
+  <g>
+    <rect x="80" y="246" width="300" height="126" rx="10" fill="#FFFFFF"/>
+    <rect x="80.5" y="246.5" width="299" height="125" rx="9.5" stroke="#202124" stroke-opacity="0.08"/>
+    <text x="110" y="296" fill="#202124" fill-opacity="0.58" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="600">Hábitos de hoje</text>
+    <text x="110" y="340" fill="#202124" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700">2</text>
+    <text x="110" y="362" fill="#202124" fill-opacity="0.45" font-family="Inter, Arial, sans-serif" font-size="15">feitos até agora</text>
+  </g>
+  <g>
+    <rect x="404" y="246" width="300" height="126" rx="10" fill="#FFFFFF"/>
+    <rect x="404.5" y="246.5" width="299" height="125" rx="9.5" stroke="#202124" stroke-opacity="0.08"/>
+    <text x="434" y="296" fill="#202124" fill-opacity="0.58" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="600">Vitórias mínimas</text>
+    <text x="434" y="340" fill="#202124" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700">3</text>
+    <text x="434" y="362" fill="#202124" fill-opacity="0.45" font-family="Inter, Arial, sans-serif" font-size="15">dias em que você apareceu</text>
+  </g>
+  <g>
+    <rect x="728" y="246" width="300" height="126" rx="10" fill="#FFFFFF"/>
+    <rect x="728.5" y="246.5" width="299" height="125" rx="9.5" stroke="#202124" stroke-opacity="0.08"/>
+    <text x="758" y="296" fill="#202124" fill-opacity="0.58" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="600">Dias com registro</text>
+    <text x="758" y="340" fill="#202124" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700">4</text>
+    <text x="758" y="362" fill="#202124" fill-opacity="0.45" font-family="Inter, Arial, sans-serif" font-size="15">na semana atual</text>
+  </g>
+  <g>
+    <rect x="1052" y="246" width="308" height="126" rx="10" fill="#FFFFFF"/>
+    <rect x="1052.5" y="246.5" width="307" height="125" rx="9.5" stroke="#202124" stroke-opacity="0.08"/>
+    <text x="1082" y="296" fill="#202124" fill-opacity="0.58" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="600">Retornos</text>
+    <text x="1082" y="340" fill="#202124" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700">1</text>
+    <text x="1082" y="362" fill="#202124" fill-opacity="0.45" font-family="Inter, Arial, sans-serif" font-size="15">recomeços depois de pausa</text>
+  </g>
+
+  <rect x="80" y="404" width="1280" height="386" rx="12" fill="#FFFFFF"/>
+  <rect x="80.5" y="404.5" width="1279" height="385" rx="11.5" stroke="#202124" stroke-opacity="0.08"/>
+  <text x="116" y="458" fill="#C8754B" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3">HOJE</text>
+  <text x="116" y="512" fill="#202124" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="700">Um passo de hoje já ajuda a voltar.</text>
+  <text x="116" y="546" fill="#202124" fill-opacity="0.65" font-family="Inter, Arial, sans-serif" font-size="18">2 de 4 hábitos concluídos</text>
+  <rect x="116" y="584" width="1208" height="14" rx="7" fill="#EEF2F1"/>
+  <rect x="116" y="584" width="604" height="14" rx="7" fill="#4D6F5D"/>
+  <rect x="116" y="626" width="1208" height="56" rx="8" fill="#EEF2F1"/>
+  <rect x="116.5" y="626.5" width="1207" height="55" rx="7.5" stroke="#202124" stroke-opacity="0.08"/>
+  <text x="140" y="661" fill="#4D6F5D" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Hoje já conta. Você apareceu por você.</text>
+
+  <g>
+    <rect x="116" y="714" width="588" height="58" rx="8" fill="#EEF2F1"/>
+    <rect x="116.5" y="714.5" width="587" height="57" rx="7.5" stroke="#4D6F5D" stroke-opacity="0.35"/>
+    <rect x="140" y="730" width="26" height="26" rx="6" fill="#4D6F5D"/>
+    <path d="M147 743.2L151.7 748L159.5 738" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="188" y="744" fill="#202124" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Estudar programação</text>
+    <text x="188" y="764" fill="#202124" fill-opacity="0.62" font-family="Inter, Arial, sans-serif" font-size="14">Estudar por 25 minutos</text>
+  </g>
+  <g>
+    <rect x="736" y="714" width="588" height="58" rx="8" fill="#FFFFFF"/>
+    <rect x="736.5" y="714.5" width="587" height="57" rx="7.5" stroke="#202124" stroke-opacity="0.08"/>
+    <rect x="760" y="730" width="26" height="26" rx="6" fill="#FFFFFF" stroke="#202124" stroke-opacity="0.22"/>
+    <text x="808" y="744" fill="#202124" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Organizar algo</text>
+    <text x="808" y="764" fill="#202124" fill-opacity="0.62" font-family="Inter, Arial, sans-serif" font-size="14">Organizar um item, arquivo ou espaço</text>
+  </g>
+</svg>
